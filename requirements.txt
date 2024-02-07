@@ -1,5 +1,3 @@
-spacy
-altair
-pandas
-streamlit
+pip install spacy
+pip install streamlit
 python -m spacy download en_core_web_sm
