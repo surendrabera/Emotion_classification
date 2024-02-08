@@ -1,6 +1,3 @@
 pip install -U pip setuptools wheel
-git clone https://github.com/explosion/spaCy
-cd spaCy
-pip install -r requirements.txt
-pip install --no-build-isolation --editable .
+pip install -U spacy
 python -m spacy download en_core_web_sm
